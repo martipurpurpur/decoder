@@ -6,9 +6,10 @@
             <div class="col-4">
                 {{ csrf_field() }}
                 <div class="form-group marti-forms">
-                    <input type="text" class="form-control" id="uue" name="uue" placeholder="uue">
+                    <input type="text" class="form-control" id="text" name="text" placeholder="Enter text">
                 </div>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4">{{ $textAnswer ?? '' }}</textarea>
+
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Result (encode)">{{ $uueAnswer ?? '' }}</textarea>
 
                 <span>
        <button type="submit" class="badge-pill pills submit-pills">Submit</button>
@@ -17,10 +18,10 @@
             </div>
             <div class="col-4">
                 <div class="form-group marti-forms">
-                    <input type="text" class="form-control" id="text" name="text" placeholder="text">
+                    <input type="text" class="form-control" id="uue" name="uue" placeholder="Enter UUE">
                 </div>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Result (decode)">{{ $textAnswer ?? '' }}</textarea>
 
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4">{{ $uueAnswer ?? '' }}</textarea>
 
 
             </div>
