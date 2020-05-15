@@ -23,11 +23,11 @@
 
            <div class="card text-white marti-cards mb-3" style="max-width: 18rem;">
                <div class="card-header text-center">
-                   <h3><a href="{{ route('index_rot') }}" class="marti-links">ROT N</a></h3>
+                   <h3><a href="{{ route('index_rot') }}" class="marti-links">ROTN</a></h3>
                </div>
                <div class="card-body">
                    <p class="card-text">
-                       Is a simple letter substitution cipher that replaces a letter with the N letter after it,
+                       Caesar cipher. Is a simple letter substitution cipher that replaces a letter with the N letter after it,
                        in the alphabet.
                    </p>
                </div>
