@@ -28,7 +28,7 @@
         </div>
         <div class="col-2"></div>
     </form>
-    <footer>
+    <nav>
         <ul class="nav justify-content-center">
             <li class="nav-item">
             <li class="nav-item">
@@ -43,6 +43,6 @@
                 <a class="nav-link marti-links" href="{{ route('index_base64') }}">Base64</a>
             </li>
         </ul>
-    </footer>
+    </nav>
 
 @endsection
