@@ -42,7 +42,7 @@
     </form>
 
 
-    <nav>
+    <nav style="margin-top: 2em">
         <ul class="nav justify-content-center">
             <li class="nav-item">
             <li class="nav-item">
